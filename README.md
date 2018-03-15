@@ -22,8 +22,7 @@ Tags can be nested as demonstrated in the navigation snippet below.
         <ul>
         <!-- ul element documentation: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul -->
 
-          <li><a href="/web">Introduction to the web</a></li>
-          <!-- li element documentation: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li -->
+
 
           <li><a href="/html">Learn HTML</a></li>
         </ul>
@@ -47,16 +46,11 @@ behavior of the element.
 	<element attribute_name=attribute_value another_attribute_name=another_attribute_value></element>
 ```
 
-A very common use case for HTML attributes is element identification (`id`
-attribute) and/or classification (`class` attribute). The `id` attribute is
-used to uniquely identify an element within the whole document. The `class`
-attribute is used to group together similar elements.
-
 Both `<id>` and `<class>` attributes are often used for styling purposes since they allows us to find a specific element or style similar elements with a single style declaration.
 
 ```html
 	<p id='main_paragraph'>This element can be uniquely identified  using the 'main_paragraph' id HTML attribute</p>
-	
+
 	<p class='other_paragraphs'>This element belongs to a group of elements who share the 'other_paragraphs' HTML class attribute</p>
 	<p class='other_paragraphs'>This element also belongs to a group of elements who share the 'other_paragraphs' HTML class attribute</p>
 ```
